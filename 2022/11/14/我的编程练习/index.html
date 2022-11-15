@@ -45,7 +45,7 @@
         content="2022-11-14">
       <meta 
         property="og:article:modified_time" 
-        content="2022-11-14">
+        content="2022-11-15">
       <meta 
         property="og:article:author" 
         content="Mr.EQ">
@@ -376,7 +376,7 @@
     
     
       <span class="dot"></span>
-      <span>251 words</span>
+      <span>250 words</span>
     
   </div>
   
@@ -386,7 +386,7 @@
     class="post-content">
     <h1 id="我的编程练习"><a href="#我的编程练习" class="headerlink" title="我的编程练习"></a>我的编程练习</h1><ol>
 <li><p>输出杨辉三角</p>
-<pre class="highlight"><span class="line"><span class="meta"># <span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a =<span class="number">0</span>,c=<span class="number">1</span>,b=<span class="number">0</span>;</span><br><span class="line">    cin&gt;&gt;b;</span><br><span class="line">    <span class="keyword">while</span>(a&lt;b)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = c; i &lt; b; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			cout &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		c++;</span><br><span class="line">		<span class="type">static</span> <span class="type">int</span> s = <span class="number">1</span>;</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt;<span class="number">2</span>*s<span class="number">-1</span>; j++)</span><br><span class="line">		&#123;</span><br><span class="line">			cout &lt;&lt; <span class="string">&quot;*&quot;</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		cout &lt;&lt; endl;</span><br><span class="line">		s++;</span><br><span class="line">		a++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre>
+<pre class="highlight"><span class="line"><span class="meta"># <span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> c = <span class="number">1</span>, b = <span class="number">0</span>;</span><br><span class="line">	cin &gt;&gt; b;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> a = <span class="number">0</span>; a &lt; b; a++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> i = c; i &lt; b; i++)</span><br><span class="line">		&#123;</span><br><span class="line">			cout &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		c++;</span><br><span class="line">		<span class="type">static</span> <span class="type">int</span> s = <span class="number">1</span>;</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; <span class="number">2</span> * s - <span class="number">1</span>; j++)</span><br><span class="line">		&#123;</span><br><span class="line">			cout &lt;&lt; <span class="string">&quot;*&quot;</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		cout &lt;&lt; endl;</span><br><span class="line">		s++;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre>
 
 
 </li>
